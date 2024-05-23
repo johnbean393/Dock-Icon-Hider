@@ -11,6 +11,12 @@
 		2075C3422BFDC53200D2EEE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075C3412BFDC53200D2EEE9 /* ContentView.swift */; };
 		2075C3442BFDC53400D2EEE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2075C3432BFDC53400D2EEE9 /* Assets.xcassets */; };
 		2075C3472BFDC53400D2EEE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2075C3462BFDC53400D2EEE9 /* Preview Assets.xcassets */; };
+		2075C3502BFDC65000D2EEE9 /* ExtensionKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2075C34F2BFDC65000D2EEE9 /* ExtensionKit */; };
+		2075C3532BFDC85A00D2EEE9 /* PListKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2075C3522BFDC85A00D2EEE9 /* PListKit */; };
+		2075C3552BFDC86C00D2EEE9 /* IconHider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075C3542BFDC86C00D2EEE9 /* IconHider.swift */; };
+		2075C3572BFDF13B00D2EEE9 /* ResignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2075C3562BFDF13B00D2EEE9 /* ResignView.swift */; };
+		20F133552BFED76100F78E23 /* Extension+Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F133542BFED76100F78E23 /* Extension+Process.swift */; };
+		20F133572BFED77400F78E23 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F133562BFED77400F78E23 /* Extension+String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,10 @@
 		2075C3432BFDC53400D2EEE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2075C3462BFDC53400D2EEE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2075C3482BFDC53400D2EEE9 /* Dock_Icon_Hider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dock_Icon_Hider.entitlements; sourceTree = "<group>"; };
+		2075C3542BFDC86C00D2EEE9 /* IconHider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconHider.swift; sourceTree = "<group>"; };
+		2075C3562BFDF13B00D2EEE9 /* ResignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResignView.swift; sourceTree = "<group>"; };
+		20F133542BFED76100F78E23 /* Extension+Process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Process.swift"; sourceTree = "<group>"; };
+		20F133562BFED77400F78E23 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2075C3532BFDC85A00D2EEE9 /* PListKit in Frameworks */,
+				2075C3502BFDC65000D2EEE9 /* ExtensionKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				2075C33F2BFDC53200D2EEE9 /* Dock_Icon_HiderApp.swift */,
-				2075C3412BFDC53200D2EEE9 /* ContentView.swift */,
+				20F1335A2BFED78900F78E23 /* Views */,
+				20F133592BFED78400F78E23 /* Classes */,
+				20F133582BFED77B00F78E23 /* Extensions */,
 				2075C3432BFDC53400D2EEE9 /* Assets.xcassets */,
 				2075C3482BFDC53400D2EEE9 /* Dock_Icon_Hider.entitlements */,
 				2075C3452BFDC53400D2EEE9 /* Preview Content */,
@@ -67,6 +81,32 @@
 				2075C3462BFDC53400D2EEE9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20F133582BFED77B00F78E23 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				20F133542BFED76100F78E23 /* Extension+Process.swift */,
+				20F133562BFED77400F78E23 /* Extension+String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		20F133592BFED78400F78E23 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2075C3542BFDC86C00D2EEE9 /* IconHider.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		20F1335A2BFED78900F78E23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2075C3412BFDC53200D2EEE9 /* ContentView.swift */,
+				2075C3562BFDF13B00D2EEE9 /* ResignView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +125,10 @@
 			dependencies = (
 			);
 			name = "Dock Icon Hider";
+			packageProductDependencies = (
+				2075C34F2BFDC65000D2EEE9 /* ExtensionKit */,
+				2075C3522BFDC85A00D2EEE9 /* PListKit */,
+			);
 			productName = "Dock Icon Hider";
 			productReference = 2075C33C2BFDC53200D2EEE9 /* Dock Icon Hider.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +157,10 @@
 				Base,
 			);
 			mainGroup = 2075C3332BFDC53200D2EEE9;
+			packageReferences = (
+				2075C34E2BFDC65000D2EEE9 /* XCRemoteSwiftPackageReference "ExtensionKit" */,
+				2075C3512BFDC85A00D2EEE9 /* XCRemoteSwiftPackageReference "PListKit" */,
+			);
 			productRefGroup = 2075C33D2BFDC53200D2EEE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +187,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20F133552BFED76100F78E23 /* Extension+Process.swift in Sources */,
 				2075C3422BFDC53200D2EEE9 /* ContentView.swift in Sources */,
+				20F133572BFED77400F78E23 /* Extension+String.swift in Sources */,
 				2075C3402BFDC53200D2EEE9 /* Dock_Icon_HiderApp.swift in Sources */,
+				2075C3572BFDF13B00D2EEE9 /* ResignView.swift in Sources */,
+				2075C3552BFDC86C00D2EEE9 /* IconHider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +252,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -257,7 +309,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -341,6 +393,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2075C34E2BFDC65000D2EEE9 /* XCRemoteSwiftPackageReference "ExtensionKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnbean393/ExtensionKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		2075C3512BFDC85A00D2EEE9 /* XCRemoteSwiftPackageReference "PListKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orchetect/PListKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2075C34F2BFDC65000D2EEE9 /* ExtensionKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2075C34E2BFDC65000D2EEE9 /* XCRemoteSwiftPackageReference "ExtensionKit" */;
+			productName = ExtensionKit;
+		};
+		2075C3522BFDC85A00D2EEE9 /* PListKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2075C3512BFDC85A00D2EEE9 /* XCRemoteSwiftPackageReference "PListKit" */;
+			productName = PListKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2075C3342BFDC53200D2EEE9 /* Project object */;
 }

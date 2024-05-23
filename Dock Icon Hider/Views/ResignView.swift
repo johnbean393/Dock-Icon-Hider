@@ -12,7 +12,7 @@ struct ResignView: View {
 	@Binding var showingAlert: Bool
 	@Binding var errorMsg: String?
 	
-	@State private var email: String = ""
+	@AppStorage("email") private var email: String = ""
 	
 	@Binding var showResignSheet: Bool
 	

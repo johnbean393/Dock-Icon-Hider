@@ -15,6 +15,7 @@ struct ContentView: View {
 	
     var body: some View {
 		HStack(spacing: 12) {
+			// Toggle hide key
 			VStack(spacing: 12) {
 				Image(systemName: "wand.and.stars.inverse")
 					.symbolRenderingMode(.palette)
@@ -32,6 +33,7 @@ struct ContentView: View {
 					}
 				Text("**Toggle Hide**")
 			}
+			// Remove hide key
 			VStack(spacing: 12) {
 				Image(systemName: "eraser.line.dashed.fill")
 					.symbolRenderingMode(.palette)
@@ -49,6 +51,7 @@ struct ContentView: View {
 					}
 				Text("**Remove Hide Preference**")
 			}
+			// Re-sign app
 			VStack(spacing: 12) {
 				Image(systemName: "signature")
 					.foregroundStyle(Color.blue)

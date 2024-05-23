@@ -1,0 +1,24 @@
+{
+  "originHash" : "ed8f8295ed64c6d4a3489318027e592fe0a6cfe4545a6d4dbd76d5caca2d8604",
+  "pins" : [
+    {
+      "identity" : "extensionkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/johnbean393/ExtensionKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f40e3f1ead84517565f523409d18996efdc3cc9e"
+      }
+    },
+    {
+      "identity" : "plistkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/orchetect/PListKit",
+      "state" : {
+        "revision" : "f7e1c56ac2907b9812803722cc63c115fe29e325",
+        "version" : "2.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
