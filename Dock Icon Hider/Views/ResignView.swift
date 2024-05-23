@@ -26,6 +26,9 @@ struct ResignView: View {
 				TextField("Email", text: $email)
 					.textFieldStyle(.roundedBorder)
 			}
+			Link(
+				"Don't have an Apple Developer Account?",
+				destination: URL(string: "https://developer.apple.com/help/account/get-started/about-your-developer-account")!)
 			Divider()
 			HStack {
 				Button("Start") {
