@@ -49,6 +49,7 @@
 		2075C3332BFDC53200D2EEE9 = {
 			isa = PBXGroup;
 			children = (
+				20644FF52BFF29690023A902 /* README.md */,
 				2075C33E2BFDC53200D2EEE9 /* Dock Icon Hider */,
 				2075C33D2BFDC53200D2EEE9 /* Products */,
 			);
@@ -72,7 +73,6 @@
 				2075C3432BFDC53400D2EEE9 /* Assets.xcassets */,
 				2075C3482BFDC53400D2EEE9 /* Dock_Icon_Hider.entitlements */,
 				2075C3452BFDC53400D2EEE9 /* Preview Content */,
-				20644FF52BFF29690023A902 /* README.md */,
 			);
 			path = "Dock Icon Hider";
 			sourceTree = "<group>";
