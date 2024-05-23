@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20644FF52BFF29690023A902 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2075C33C2BFDC53200D2EEE9 /* Dock Icon Hider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dock Icon Hider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2075C33F2BFDC53200D2EEE9 /* Dock_Icon_HiderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dock_Icon_HiderApp.swift; sourceTree = "<group>"; };
 		2075C3412BFDC53200D2EEE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 				2075C3432BFDC53400D2EEE9 /* Assets.xcassets */,
 				2075C3482BFDC53400D2EEE9 /* Dock_Icon_Hider.entitlements */,
 				2075C3452BFDC53400D2EEE9 /* Preview Content */,
+				20644FF52BFF29690023A902 /* README.md */,
 			);
 			path = "Dock Icon Hider";
 			sourceTree = "<group>";
